@@ -1,0 +1,125 @@
+site_name: ABA - Avvale Business Assistant
+site_description: Conversational AI for SAP On-Premise environments
+site_url: https://avvale.github.io/aba-docs-client/
+repo_url: https://github.com/avvale/aba-docs-client
+repo_name: avvale/aba-docs-client
+
+theme:
+  name: material
+  language: en
+  palette:
+    - scheme: default
+      primary: teal
+      accent: light green
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - scheme: slate
+      primary: teal
+      accent: light green
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  font:
+    text: Roboto
+    code: Roboto Mono
+  features:
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.sections
+    - navigation.expand
+    - navigation.path
+    - navigation.top
+    - navigation.indexes
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+    - content.tabs.link
+    - toc.follow
+  icon:
+    logo: material/robot-happy-outline
+    repo: fontawesome/brands/github
+
+extra:
+  generator: false
+  social:
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/company/avvale
+      name: Avvale on LinkedIn
+    - icon: fontawesome/brands/github
+      link: https://github.com/avvale
+      name: Avvale on GitHub
+
+extra_css:
+  - styles/avvale.css
+
+copyright: "&copy; 2025 Avvale — AI Solutions Team"
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - attr_list
+  - md_in_html
+  - tables
+  - toc:
+      permalink: true
+
+plugins:
+  - search
+
+nav:
+  - Home: index.md
+
+  - Getting Started:
+    - What is ABA?: getting-started/what-is-aba.md
+    - Business Value: getting-started/business-value.md
+    - Key Capabilities: getting-started/capabilities.md
+    - Supported Modules: getting-started/supported-modules.md
+    - Architecture Overview (high-level): getting-started/architecture.md
+
+  - Security & Implementation:
+    - Security and Compliance: getting-started/security-overview.md
+    - Implementation Overview: getting-started/implementation.md
+
+  - SAP Modules:
+    - FI / CO - Finance & Controlling: modules/fi.md
+    - MM - Materials Management: modules/mm.md
+    - SD - Sales & Distribution: modules/sd.md
+    - PM - Plant Maintenance: modules/pm.md
+    - HCM - Human Capital Management: modules/hcm.md
+    - Additional Modules:
+      - PP - Production Planning: modules/pp.md
+      - QM - Quality Management: modules/qm.md
+      - WM/EWM - Warehouse Management: modules/wm.md
+
+  - Business Processes:
+    - Cross-Module Queries: cross-module/cross-queries.md
+    - Document Flow: cross-module/document-flow.md
+    - Reporting & Analytics: cross-module/reporting.md
+    - Master Data: cross-module/master-data.md
+
+  - Security & Architecture:
+    - System Architecture (overview): architecture/system-architecture.md
+    - Authentication & Security: architecture/authentication.md
+
+  - FAQ:
+    - Frequently Asked Questions: faq/faq.md
+    - Known Limitations: faq/limitations.md
+
+  - Roadmap:
+    - Product Roadmap: changelog/roadmap.md
+

@@ -1,0 +1,23 @@
+/* Avvale color palette for MkDocs Material */
+
+:root {
+  /* Primary brand greens */
+  --md-primary-fg-color: #5ab031;
+  --md-primary-fg-color--light: #aace7c;
+  --md-primary-fg-color--dark: #248b7e;
+
+  /* Accent color */
+  --md-accent-fg-color: #f25757;
+
+  /* Background and neutrals */
+  --md-default-bg-color: #060a0d;
+  --md-default-fg-color: #ffffff;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    --md-default-bg-color: #ffffff;
+    --md-default-fg-color: #060a0d;
+  }
+}
+
