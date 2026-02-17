@@ -36,8 +36,8 @@ theme:
     - content.code.copy
     - content.tabs.link
     - toc.follow
+  logo: assets/avvale-logo.png
   icon:
-    logo: material/robot-happy-outline
     repo: fontawesome/brands/github
 
 extra:
