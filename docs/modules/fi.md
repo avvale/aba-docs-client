@@ -28,7 +28,7 @@ The Financial Accounting module provides natural language access to SAP FI data 
 ### General Ledger — Display financial document
 
 !!! example "User prompt"
-    *"Muestra el documento contable 1400000001 de sociedad 1000 del ejercicio 2026 con todas sus posiciones, importes e imputaciones."*
+    *"Display financial document 1400000001 in company code 1000 for fiscal year 2026 with all line items, amounts, and assignments."*
 
 **What happens:** Retrieves document header and line items; amounts and assignments match FB03.
 
@@ -46,7 +46,7 @@ The Financial Accounting module provides natural language access to SAP FI data 
 ### General Ledger — G/L account balance by period
 
 !!! example "User prompt"
-    *"Muestra el saldo de la cuenta 113100 en sociedad 1000 para los periodos 1 a 12 del ejercicio 2025, con desglose mensual de debe, haber y saldo acumulado."*
+    *"Show balance for G/L account 113100 in company code 1000 for periods 1 to 12 of fiscal year 2025, with monthly breakdown of debit, credit, and cumulative balance."*
 
 **What happens:** Returns balance by period (debit, credit, cumulative balance); values align with FAGLB03.
 
