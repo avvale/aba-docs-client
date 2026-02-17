@@ -49,7 +49,7 @@ The Plant Maintenance module enables natural language access to maintenance noti
 ### Maintenance Order — Create corrective from notification
 
 !!! example "User prompt"
-    *"Crea una orden de mantenimiento tipo PM01 (correctivo) desde aviso 10001234 para equipo PUMP-001. Añade operación: desmontaje e inspección, 4 horas, puesto trabajo MECH-01."*
+    *"Create a maintenance order type PM01 (corrective) from notification 10001234 for equipment PUMP-001. Add operation: disassembly and inspection, 4 hours, work center MECH-01."*
 
 **What happens:** Creates the corrective order with reference to the notification and adds the operation (work center, planned hours); returns the order number. Requires technical data (work center, etc.).
 
@@ -76,7 +76,7 @@ The Plant Maintenance module enables natural language access to maintenance noti
 ### Confirmations — Confirm operation
 
 !!! example "User prompt"
-    *"Confirma la operación 0010 de la orden 4001234: 3.5 horas trabajadas, técnico TECH-01, estado: trabajo completado. Incluye texto: 'Rodamiento reemplazado, bomba operativa'."*
+    *"Confirm operation 0010 of order 4001234: 3.5 hours worked, technician TECH-01, status: work completed. Include text: 'Bearing replaced, pump operational'."*
 
 **What happens:** Posts the confirmation for the operation (hours, technician, completion status, text); updates order progress. Order must be released.
 
@@ -130,7 +130,7 @@ The Plant Maintenance module enables natural language access to maintenance noti
 ### Reporting PM — KPIs (MTBF, MTTR, availability)
 
 !!! example "User prompt"
-    *"Calcula los KPIs de mantenimiento para centro 1100 en 2026: MTBF (tiempo medio entre fallos), MTTR (tiempo medio de reparación), disponibilidad de equipos y ratio preventivo/correctivo."*
+    *"Calculate maintenance KPIs for plant 1100 in 2026: MTBF (mean time between failures), MTTR (mean time to repair), equipment availability, and preventive/corrective ratio."*
 
 **What happens:** Returns MTBF, MTTR, availability, and preventive/corrective ratio for the plant and period; supports dashboard and management reporting.
 

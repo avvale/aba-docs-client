@@ -75,7 +75,7 @@ The Sales & Distribution module provides conversational access to sales orders, 
 ### Delivery — Pending GI today
 
 !!! example "User prompt"
-    *"Lista todas las entregas con salida de mercancías planificada para hoy en centro expedición 1100 que aún no tienen GI posteado. Muestra cliente, material y cantidad."*
+    *"List all deliveries with planned goods issue for today in shipping point 1100 that don't have GI posted yet. Show customer, material, and quantity."*
 
 **What happens:** Returns deliveries with planned GI date = today and GI not yet posted for the shipping point; includes customer, material, quantity. Supports daily operations (VL06O).
 

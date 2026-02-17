@@ -32,7 +32,7 @@ The Human Capital Management module provides natural language access to employee
 ### Employee Master — Search by name/department
 
 !!! example "User prompt"
-    *"Busca empleados de nombre 'García' en la división de IT de sociedad 1000. Muestra posición, ubicación, email y extensión telefónica."*
+    *"Search for employees with last name 'García' in IT division of company code 1000. Show position, location, email, and phone extension."*
 
 **What happens:** Searches employees by partial name and org unit; returns position, location, email, and phone extension.
 
@@ -131,7 +131,7 @@ The Human Capital Management module provides natural language access to employee
 ### Reporting HR — Turnover by department
 
 !!! example "User prompt"
-    *"Calcula la tasa de rotación por departamento en sociedad 1000 para los últimos 12 meses: bajas voluntarias, involuntarias, y tasa total. Compara con periodo anterior y destaca departamentos con rotación anómala."*
+    *"Calculate turnover rate by department in company code 1000 for the last 12 months: voluntary, involuntary, and total. Compare with previous period and highlight departments with anomalous turnover."*
 
 **What happens:** Returns turnover rate by department (voluntary, involuntary, total), year-over-year comparison, and highlights anomalous departments.
 

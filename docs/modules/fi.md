@@ -136,7 +136,7 @@ The Financial Accounting module provides natural language access to SAP FI data 
 ### Fixed Assets — Depreciation simulation
 
 !!! example "User prompt"
-    *"Simula la amortización del activo 10000001-0 en sociedad 1000 para los próximos 12 meses. Muestra cuota mensual, acumulado y valor residual."*
+    *"Simulate depreciation for asset 10000001-0 in company code 1000 for the next 12 months. Show monthly depreciation, cumulative, and residual value."*
 
 **What happens:** Returns projected depreciation for the next 12 months (monthly amount, cumulative, residual value).
 

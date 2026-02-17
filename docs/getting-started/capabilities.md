@@ -62,8 +62,8 @@ Perform controlled changes in SAP through guided conversations, always with busi
 Interact with ABA in the language that is most natural for your users.
 
 !!! example "Examples"
-    - *"Muéstrame las facturas abiertas del proveedor Siemens de este mes"*  
-    - *"Mostra-mi tutti gli ordini di vendita aperti per il cliente ACME Italia"*  
+    - *"Show me open invoices from Siemens vendor for this month"* (can be asked in Spanish: "Muéstrame las facturas abiertas del proveedor Siemens de este mes")
+    - *"Mostra-mi tutti gli ordini di vendita aperti per il cliente ACME Italia"* (Italian)
 
 ## What's Coming
 
