@@ -615,3 +615,15 @@ body {
     color: var(--avvale-dark) !important;
   }
 }
+
+/* ============================================================
+   Print-site: hide nav-section wrappers that have no page
+   content inside them (all their child pages were excluded).
+   The plugin generates: <section class="md-section"><h1>…</h1></section>
+   A section with content has multiple direct children (h1 + more).
+   A section with no content has exactly one direct child (just h1).
+   ":has(> * + *)" = "has at least two direct children" → non-empty.
+   ============================================================ */
+section.md-section:not(:has(> * + *)) {
+  display: none !important;
+}

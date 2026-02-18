@@ -2,42 +2,43 @@
 
 Our planned development trajectory for ABA.
 
-!!! info "This roadmap is indicative and subject to change based on customer feedback and priorities."
+!!! warning "Work in Progress"
+    This roadmap is indicative and subject to change at any time without prior notice, based on customer feedback, technical findings, and evolving priorities. Dates and scope are best estimates, not commitments.
+
+---
 
 ## Q1 2026 — Foundation :white_check_mark:
 
 - [x] Core MCP Server architecture
-- [x] FI, CO, MM, SD, HCM, PM modules (production)
-- [x] PP module (beta)
-- [x] QM, WM modules (alpha)
+- [x] MM - Materials Management (production)
+- [x] PM - Plant Maintenance (production)
+- [x] FI / CO - Finance & Controlling (beta)
 - [x] Cross-module document flow
 - [x] Enterprise LLM provider support (hyperscalers and SAP AI Core)
 - [x] Web chat client
 
 ## Q2 2026 — Expansion
 
+- [ ] FI / CO to production, expanded coverage
+- [ ] SD - Sales & Distribution (beta)
+- [ ] HCM - Human Capital Management (beta)
+- [ ] PP - Production Planning (beta)
 - [ ] Expand write coverage and approval workflows across modules
 - [ ] Microsoft Teams bot (GA)
 - [ ] Enhanced analytics and aggregation capabilities
-- [ ] QM module to beta
-- [ ] Custom tool development framework documentation
 
-## Q3 2026 — Enterprise
+## H2 2026 — Enterprise & Intelligence
 
-- [ ] Expand and harden multi-language support beyond English/Spanish (German, Italian, French, etc.)
-- [ ] Scheduled queries and alerts
-- [ ] Workflow trigger capabilities
-- [ ] Advanced cross-module analytics
-- [ ] WM/EWM module to beta
-- [ ] Performance optimization for large datasets
-
-## Q4 2026 — Intelligence
-
-- [ ] Proactive insights and anomaly detection
+- [ ] QM - Quality Management (alpha → beta)
+- [ ] WM/EWM - Warehouse Management (alpha → beta)
+- [ ] Multi-language support beyond English (German, Italian, French, and others)
+- [ ] Scheduled queries and proactive alerts
+- [ ] Workflow trigger and approval capabilities
+- [ ] Advanced cross-module analytics and anomaly detection
 - [ ] Integration with SAP BW/BPC for planning data
+- [ ] Performance optimization for large datasets
 - [ ] Voice interface support
 - [ ] Custom dashboard generation
-- [ ] Self-service tool creation for power users
 
 ## Beyond 2026
 
@@ -48,4 +49,4 @@ Our planned development trajectory for ABA.
 
 ---
 
-Have a feature request? Contact: **ai-team@avvale.com**
+Have a feature request? Reach out to your **Avvale contact** or visit [avvale.com](https://www.avvale.com).

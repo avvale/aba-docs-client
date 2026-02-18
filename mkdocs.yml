@@ -7,22 +7,22 @@ repo_name: avvale/aba-docs-client
 theme:
   name: material
   language: en
+  font:
+    text: Plus Jakarta Sans
+    code: JetBrains Mono
   palette:
     - scheme: default
-      primary: teal
-      accent: light green
+      primary: custom
+      accent: custom
       toggle:
         icon: material/brightness-7
         name: Switch to dark mode
     - scheme: slate
-      primary: teal
-      accent: light green
+      primary: custom
+      accent: custom
       toggle:
         icon: material/brightness-4
         name: Switch to light mode
-  font:
-    text: Roboto
-    code: Roboto Mono
   features:
     - navigation.tabs
     - navigation.tabs.sticky
@@ -84,6 +84,15 @@ markdown_extensions:
 
 plugins:
   - search
+  - print-site:
+      add_cover_page: true
+      cover_page_template: ""
+      add_table_of_contents: true
+      toc_title: "Table of Contents"
+      toc_depth: 2
+      print_page_title: "Print / Export PDF"
+      enumerate_headings: false
+      enumerate_figures: false
 
 nav:
   - Home: index.md
@@ -93,9 +102,7 @@ nav:
     - Business Value: getting-started/business-value.md
     - Key Capabilities: getting-started/capabilities.md
     - Supported Modules: getting-started/supported-modules.md
-    - Architecture Overview (high-level): getting-started/architecture.md
-
-  - Security & Implementation:
+    - Architecture Overview: getting-started/architecture.md
     - Security and Compliance: getting-started/security-overview.md
     - Implementation Overview: getting-started/implementation.md
 

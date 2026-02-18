@@ -6,15 +6,15 @@ ABA provides natural language access across SAP's core functional modules. Each 
 
 | Module | Name | Read | Create | Modify | Maturity | Details |
 |--------|------|:----:|:------:|:------:|----------|---------|
-| **FI** | Financial Accounting | :white_check_mark: | :white_check_mark: | :white_check_mark: | :green_circle: Production | [View →](fi.md) |
-| **CO** | Controlling | :white_check_mark: | — | — | :green_circle: Production | [View →](co.md) |
 | **MM** | Materials Management | :white_check_mark: | :white_check_mark: | :white_check_mark: | :green_circle: Production | [View →](mm.md) |
-| **SD** | Sales & Distribution | :white_check_mark: | :white_check_mark: | :white_check_mark: | :green_circle: Production | [View →](sd.md) |
-| **PP** | Production Planning | :white_check_mark: | — | — | :yellow_circle: Beta | [View →](pp.md) |
-| **HCM** | Human Capital Mgmt | :white_check_mark: | :white_check_mark: | — | :green_circle: Production | [View →](hcm.md) |
 | **PM** | Plant Maintenance | :white_check_mark: | :white_check_mark: | — | :green_circle: Production | [View →](pm.md) |
+| **FI** | Financial Accounting | :white_check_mark: | :white_check_mark: | :white_check_mark: | :yellow_circle: Beta | [View →](fi.md) |
+| **CO** | Controlling | :white_check_mark: | — | — | :yellow_circle: Beta | [View →](co.md) |
+| **SD** | Sales & Distribution | :white_check_mark: | :white_check_mark: | :white_check_mark: | :yellow_circle: Beta | [View →](sd.md) |
+| **HCM** | Human Capital Mgmt | :white_check_mark: | :white_check_mark: | — | :yellow_circle: Beta | [View →](hcm.md) |
+| **PP** | Production Planning | :white_check_mark: | — | — | :yellow_circle: Beta | [View →](pp.md) |
 | **QM** | Quality Management | :white_check_mark: | — | — | :orange_circle: Alpha | [View →](qm.md) |
-| **WM** | Warehouse Management | :white_check_mark: | — | — | :orange_circle: Alpha | [View →](wm.md) |
+| **WM/EWM** | Warehouse Management | :white_check_mark: | — | — | :orange_circle: Alpha | [View →](wm.md) |
 
 ## The OData Principle
 

@@ -6,13 +6,13 @@ ABA provides coverage across SAP's core modules. Each module exposes a set of MC
 
 | Module | Name | Read | Create | Modify | Maturity |
 |--------|------|:----:|:------:|:------:|----------|
-| **FI** | Financial Accounting | :white_check_mark: | :white_check_mark: | :white_check_mark: | :green_circle: Production |
-| **CO** | Controlling | :white_check_mark: | — | — | :green_circle: Production |
 | **MM** | Materials Management | :white_check_mark: | :white_check_mark: | :white_check_mark: | :green_circle: Production |
-| **SD** | Sales & Distribution | :white_check_mark: | :white_check_mark: | :white_check_mark: | :green_circle: Production |
-| **PP** | Production Planning | :white_check_mark: | — | — | :yellow_circle: Beta |
-| **HCM** | Human Capital Mgmt | :white_check_mark: | :white_check_mark: | — | :green_circle: Production |
 | **PM** | Plant Maintenance | :white_check_mark: | :white_check_mark: | — | :green_circle: Production |
+| **FI** | Financial Accounting | :white_check_mark: | :white_check_mark: | :white_check_mark: | :yellow_circle: Beta |
+| **CO** | Controlling | :white_check_mark: | — | — | :yellow_circle: Beta |
+| **SD** | Sales & Distribution | :white_check_mark: | :white_check_mark: | :white_check_mark: | :yellow_circle: Beta |
+| **HCM** | Human Capital Mgmt | :white_check_mark: | :white_check_mark: | — | :yellow_circle: Beta |
+| **PP** | Production Planning | :white_check_mark: | — | — | :yellow_circle: Beta |
 | **QM** | Quality Management | :white_check_mark: | — | — | :orange_circle: Alpha |
 | **WM/EWM** | Warehouse Mgmt | :white_check_mark: | — | — | :orange_circle: Alpha |
 
