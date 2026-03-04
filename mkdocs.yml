@@ -123,10 +123,6 @@ nav:
     - Reporting & Analytics: cross-module/reporting.md
     - Master Data: cross-module/master-data.md
 
-  - Technical Setup:
-    - Technical Prerequisites: integration/prerequisites.md
-    - Principal Propagation (SSO): integration/principal_propagation.md
-
   - Security & Architecture:
     - System Architecture (overview): architecture/system-architecture.md
     - Authentication & Security: architecture/authentication.md
